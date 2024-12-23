@@ -1,0 +1,20 @@
+image: node
+
+install:
+  - npm install
+
+build_script:
+  - npm run build
+
+artifacts:
+  - path: dist
+    name: GnomeGame
+
+deploy:
+  provider: GitHubPages
+  branch: gh-pages
+  folder: dist
+  repo: <your-username>/<your-repo>
+  target_branch: gh-pages
+  
+
