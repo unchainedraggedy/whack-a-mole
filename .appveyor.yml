@@ -14,7 +14,7 @@ deploy:
   provider: GitHubPages
   branch: gh-pages
   folder: dist
-  repo: <your-username>/<your-repo>
+  repo: unchainedraggecy/whack-a-mole
   target_branch: gh-pages
   
 
